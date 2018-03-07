@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="tests" verbose="1" >
+    <test name="centralpoint_tests" >
+        <classes>
+            <class name="nl.centralpoint.tests.RandomFilterTest" />
+            <class name="nl.centralpoint.tests.PrijsFilterTest" />
+            <class name="eu.restcountries.tests.LatviaEstoniaBorderTest" />
+            <class name="eu.restcountries.tests.UkraineTest" />
+            <class name="nl.centralpoint.tests.ProdIdTest" />
+        </classes>
+    </test>
+</suite>

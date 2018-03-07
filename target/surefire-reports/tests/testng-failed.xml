@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [tests]">
+  <test name="centralpoint_tests(failed)">
+    <classes>
+      <class name="nl.centralpoint.tests.PrijsFilterTest">
+        <methods>
+          <include name="prijsFilterTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- nl.centralpoint.tests.PrijsFilterTest -->
+    </classes>
+  </test> <!-- centralpoint_tests(failed) -->
+</suite> <!-- Failed suite [tests] -->
